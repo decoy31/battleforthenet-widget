@@ -147,9 +147,7 @@ a:hover {
 }
 
 .modal form .flex {
-  min-width: 50%;
-  max-width: 50%;
-  flex: 1;
+  flex: 1 50%;
 }
 
 .modal input,
@@ -163,7 +161,6 @@ a:hover {
   border-radius: 0.2rem;
   font-family: 'Open Sans', sans-serif;
   font-size: 0.9rem;
-  flex: 1;
 }
 
 .modal input[type="checkbox"] {
@@ -173,8 +170,7 @@ a:hover {
 
 .modal input[name="member[first_name]"],
 .modal input[name="member[email]"] {
-  min-width: 43%;
-  max-width: 50%;
+  flex: 1 0 43%;
 }
 
 .modal input[name="member[first_name]"] {
@@ -205,12 +201,11 @@ a:hover {
 }
 
 .modal textarea {
-  min-width: 90%;
-  max-width: 100%;
+  flex: 1 100%;
 }
 
 .modal input[type="submit"] {
-  min-width: 100%;
+  flex: 1 100%;
   margin-bottom: 0;
   padding: 1rem;
   background-color: #49c7ae;
@@ -221,7 +216,6 @@ a:hover {
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   -webkit-appearance: none;
-  flex: 1;
 }
 
 .modal input[type="submit"]:hover {
