@@ -26,10 +26,6 @@ h1 {
   text-align: center;
 }
 
-h2 {
-  font-size: 18px;
-}
-
 h3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
@@ -191,7 +187,7 @@ a:hover {
   flex: 2;
 }
 
-.modal input[name="member[phone]"] {
+.modal input[name="member[phone_number]"] {
   margin-left: 0.25rem;
 }
 
@@ -321,11 +317,6 @@ a:hover {
   border: none;
 }
 
-#script p {
-  text-align: left;
-  font-size: 0.8rem;
-}
-
 /* Variations */
 body.fullscreen {
   background-color: #1e1b33;
@@ -450,8 +441,8 @@ body.slow #logos img {
     margin-right: 0;
   }
 
-  .modal input[name="member[phone]"] {
-    flex: 1;
+  .modal input[name="member[phone_number]"] {
+    flex: 1 80%;
     margin-left: 0;
   }
 }
